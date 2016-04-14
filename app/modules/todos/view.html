@@ -1,0 +1,25 @@
+<body>
+
+  <div class="app">
+
+    <h1>
+      To Do List
+    </h1>
+
+    <form>
+      <input type="text" id="input" placeholder=" to do's" ng-model="todosCtrl.todo">
+      <input type="submit" id="submit" value="Add" ng-click="todosCtrl.addTodos()">
+    </form>
+
+    <ul>
+      <li ng-repeat="todo in todosCtrl.todos">
+        <span ng-class="{'completed': todo.completed}" id="todo" ng-click="todosCtrl.markComplete(todo)">{{ todo.item }}</span>
+
+        <span id="X" ng-click="todosCtrl.deleteTodos(todo)">X</span>
+
+      </li>
+
+    </ul>
+  </div>
+
+</body>

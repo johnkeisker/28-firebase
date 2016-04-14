@@ -5,21 +5,18 @@
   background-color: lightblue;
   margin-top: 20px;
   margin-left: 20px;
-  border-radius: 10px;
-}
-
+  border-radius: 10px; }
 
 h1 {
   font-family: Verdana;
   font-size: 50px;
   color: red;
   text-shadow: 4px 4px black;
-  margin-left: 20px;
-}
+  margin-left: 20px; }
 
 form {
-  margin-left: 70px;
-}
+  margin-left: 70px; }
+
 #input {
   margin-right: 5px;
   height: 15px;
@@ -27,28 +24,26 @@ form {
   box-shadow: 3px 4px 3px black;
   font-weight: bold;
   text-align: center;
-  border-radius: 3px;
-}
+  border-radius: 3px; }
+
 #submit {
   border: 2px solid gray;
   box-shadow: 3px 4px 3px black;
   border-radius: 3px;
   margin-left: 5px;
   color: blue;
-  font-weight: bold;
-}
+  font-weight: bold; }
+
 #todo {
   font-family: Verdana;
   font-size: 30px;
-  font-weight: bold;
+  font-weight: bold; }
 
-}
 #X {
   font-size: 30px;
   font-weight: bold;
   margin-left: 10px;
-  color: red;
-}
+  color: red; }
+
 .completed {
-  text-decoration: line-through;
-}
+  text-decoration: line-through; }
